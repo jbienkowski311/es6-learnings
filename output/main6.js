@@ -29,8 +29,8 @@ var NewUser = function () {
 	function NewUser(username, email) {
 		_classCallCheck(this, NewUser);
 
-		this.username = username;
-		this.email = email;
+		this._username = username;
+		this._email = email;
 	}
 
 	// static methods
@@ -42,17 +42,18 @@ var NewUser = function () {
 
 		// this method is automagically created as a prototype
 		value: function changeEmail(newEmail) {
-			this.email = newEmail;
-		}
-	}, {
-		key: 'name',
-		get: function get() {
-			return 'Name: ' + this.name;
+			this._email = newEmail;
 		}
 	}, {
 		key: 'username',
+
+
+		// getters and setters
+		get: function get() {
+			return 'Username: ' + this._username;
+		},
 		set: function set(newUsername) {
-			this.username = newUsername;
+			this._username = newUsername;
 		}
 	}], [{
 		key: 'register',
@@ -72,4 +73,4 @@ var newUser = NewUser.register('User', 'user@email.com');
 newUser.changeEmail('foo@bar.xyz');
 newUser.username = 'ChangedUser';
 console.dir(newUser);
-console.log(newUser.name);
+console.log(newUser.username);

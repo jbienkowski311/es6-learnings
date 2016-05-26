@@ -22,7 +22,7 @@ Just:
 * `main2.js`
   * ES6 default value handling
 * `main3.js`
-  * ES6 rest and spread operators
+ or `npm run webpack`4.   * ES6 rest and spread operators
 * `main4.js`
   * ES6 template strings on HTML templates example
 * `main5.js`
@@ -37,3 +37,13 @@ Just:
 * `main7.js` + `TaskCollection.js`
   * ES6 exports
   * ES6 imports
+  * Purely theoretical (it will not work in browser)
+* `main8.js`, `main9.js`, `main10.js`
+  1. Module bundling with Rollup
+    * Call: `./node_modules/.bin/rollup src/main7.js > output/main8.js` or `npm run rollup`
+    * It does not compile code to ES5!
+  2. Module bundling with Rollup and its plugin Buble
+    * Call: `./node_modules/.bin/rollup -c > output/main9.js` or `npm run rollup-buble`
+    * This time we obtain ES5 compatible code!
+  3. Module bundling with Webpack with Buble plugin
+    * Call: `./node_modules/.bin/webpack` or `npm run webpack`

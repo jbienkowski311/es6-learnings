@@ -9,11 +9,11 @@ class TaskCollection{
 	}
 }
 
-export let foo = 'bar';
+let foo = 'bar';
 
-export function myFunc(){
+function myFunc(){
 	return {foo};
 };
 
-// exports at the end
-export default TaskCollection;
+new TaskCollection(['Eat', 'Sleep', 'Rave', 'Repeat']).dump();
+console.log(myFunc());
