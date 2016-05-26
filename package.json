@@ -4,7 +4,7 @@
   "description": "ES6 learnings",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wolfeidau/npmtest.git"
+    "url": "git@github.com:jbienkowski311/es6-learnings.git"
   },
   "scripts": {
     "build": "babel src -d output"
