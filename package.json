@@ -1,0 +1,19 @@
+{
+  "name": "es6-learning",
+  "version": "0.1.0",
+  "description": "ES6 learnings",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wolfeidau/npmtest.git"
+  },
+  "scripts": {
+    "build": "babel src -d output"
+  },
+  "author": "Jakub Bieńkowski",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-polyfill": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
