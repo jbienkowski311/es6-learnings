@@ -34,4 +34,6 @@ Just:
   * Classes
     * Static methods
     * Getters and Setters
-* `main7.js`
+* `main7.js` + `TaskCollection.js`
+  * ES6 exports
+  * ES6 imports
