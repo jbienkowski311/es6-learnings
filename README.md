@@ -49,9 +49,6 @@ Just:
     * Call: `./node_modules/.bin/webpack` or `npm run webpack`
 * `promise.js`
   * Introduction to promises
-
-  ## ToDo:
-  C
   
-  ## ToDo:
-  Cleanup this repository.
+## ToDo:
+Cleanup this repository.
