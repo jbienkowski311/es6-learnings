@@ -47,3 +47,5 @@ Just:
     * This time we obtain ES5 compatible code!
   3. Module bundling with Webpack with Buble plugin
     * Call: `./node_modules/.bin/webpack` or `npm run webpack`
+* `promise.js`
+  * Introduction to promises
