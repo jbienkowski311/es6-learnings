@@ -31,3 +31,7 @@ Just:
     * Method shorthand
     * Object destructuring
 * `main6.js`
+  * Classes
+    * Static methods
+    * Getters and Setters
+* `main7.js`

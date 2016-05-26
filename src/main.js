@@ -13,8 +13,8 @@ console.log(names);
 // VAR, LET, CONST
 
 const arr = ['Andrew', 'Mathew', 'Maria'];
-// this won't work
-arr = ['Me', 'You'];
+// this won't work, commented because of the Babel compilator
+// arr = ['Me', 'You'];
 // this will however work
 arr.push('Gloria');
 
